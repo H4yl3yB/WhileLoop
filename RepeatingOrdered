@@ -1,0 +1,14 @@
+// RepeatingOrdered by Hayley Bean
+ 
+size (300,300);
+int counter=0;
+int x=225;
+while(counter<5)
+{
+ellipse (x,x,70,70);
+  x = x - 40;
+  counter=counter+1;
+  }
+fill(0);  
+textSize(15);
+text("Repeating Ordered", 95,20); 
