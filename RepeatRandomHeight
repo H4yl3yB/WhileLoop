@@ -1,0 +1,13 @@
+// RepeatingRandomHeight by Hayley Bean
+size (300,300);
+int n=0;
+int x=50;
+while(n<5)
+{
+    ellipse (150,x,40,40);
+    x = random(200);
+    n=n+1;
+}
+fill(0);  
+textSize(15);
+text("RepeatingRandomHeight", 70,250); 
