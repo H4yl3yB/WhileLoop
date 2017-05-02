@@ -1,0 +1,15 @@
+// RepeatingRandomAllOver by Hayley Bean
+size (300,300);
+int n=0;
+int x=50;
+int y=50;
+while(n<5)
+{
+    ellipse (x,y,40,40);
+    x = random(200);
+    y = random (200);
+    n=n+1;
+}
+fill(0);  
+textSize(15);
+text("RepeatingRandomAllOver", 70,250); 
