@@ -1,0 +1,16 @@
+// RepeatingSize by Hayley Bean
+ 
+size (300,300);
+noFill();
+int counter=0;
+int x=50;
+while(counter<5)
+{
+ellipse (150,150,x,x);
+  x = x + 50;
+  counter=counter+1
+  
+  }
+fill(0);  
+textSize(15);
+text("Repeating Size", 95,20); 
