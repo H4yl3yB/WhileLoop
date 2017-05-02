@@ -1,0 +1,20 @@
+// RepeatingColor by Hayley Bean
+size (300,300);
+int blue=13;
+int red =13;
+int green=13;
+int count=0;
+int x=50;   
+while(count<5)
+{
+    fill (red, green, blue); 
+     blue= blue+50; 
+     green=green+x;
+    ellipse (x,150,40,40);
+     x = x + 50; 
+     count=count+1; 
+}
+
+fill(0);  
+textSize(15);
+text("RepeatingColor", 95,20); 
